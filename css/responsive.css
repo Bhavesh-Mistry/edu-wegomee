@@ -1,0 +1,442 @@
+@media screen and (max-width: 1199px) {
+	/*Chat Section*/ 
+	.chat-main .chat-bg .chat-list-box ul {max-height: 80vh;}
+	.chat-main .chat-right-bx .chat-box {max-height: 76vh;}
+
+	/*modal*/
+	.modal .modal-dialog {max-width: 90%; margin: 50px auto;}
+	.forpop-bg .modal-dialog {max-width: 485px;}
+
+	/*heading*/
+	.heading {font-size: 45px;line-height: 50px;}
+	.heading span {font-size: 130px;}
+
+	/*banner*/
+	.banner-bg.sub-banner .carousel-inner {height: 50vh;}
+	.banner-bg.sub-banner .carousel-inner .carousel-item.banner1 {background-position: 75% 100%;}
+	.banner-bg.sub-banner .carousel-inner .carousel-item.banner2 {background-position: 50% 100%;}
+	.banner-bg.sub-banner .carousel-inner .carousel-item.banner3 {background-position: 100% 100%;}
+
+	/*feature*/
+	.box .bx-bottom ul li {font-size: 14px;}
+	.box .bx-bottom .btns .btn {min-width: 110px;}
+
+
+	/*card*/
+	.card .card-left {flex: 0 0 140px;}
+	.card .card-body h3.card-title {font-size: 20px; text-overflow: ellipsis; overflow: hidden; max-width: 230px; white-space: nowrap;}
+	.card .card-body ul li {font-size: 14px; text-overflow: ellipsis; max-width: 230px; overflow: hidden; white-space: nowrap;}
+	.card .card-right .hours {font-size: 16px;}
+	.card .card-right .hours svg {width: 16px;height: 16px;}
+	.card .card-right .rating-box {justify-content: flex-end;}
+
+	/*doc-bx*/
+	.apply-bx ul.doc-bx li {max-width: inherit !important;}
+
+	/*middle-bx*/
+	.middle-bx .links li a {font-size: 13.5px; padding: 0 5px;}
+	.middle-bx .feature-bx li {width: 65px;}
+	.middle-bx .feature-bx li a {font-size: 11px; padding: 10px 2px;}
+	.middle-bx .select-bx {width: 33.33%; padding: 0 10px 20px 0; margin-right: 0;}
+	.middle-bx .browse-bx .search-bx {margin-bottom: auto;}
+
+	.middle-bx .card .card-left {flex: 0 0 130px;}
+	.middle-bx .card .card-body {padding: 10px 0 0 10px;}
+	.middle-bx .card .card-body h3.card-title {max-width: 200px; margin-bottom: 10px;}
+	.middle-bx .card .card-body p {line-height: 20px;}
+	.middle-bx .card .card-right {padding: 10px 10px 0 0;}
+
+	/*recruiter-signup*/
+	.resi-bg .select-bx .custom-select-trigger {font-size: 12px;}
+	.resi-bg .form-group .form-control {padding: 10px 13px;font-size: 12px;}
+	.info-bg .select-bx,.info-bg .form-group {width: 33.33%;margin: 0 !important; padding: 0 5px 20px;}
+	.info-bg .form-group.xs {width: 90px;}
+
+	/* partner-login */
+	.partner-login .card {width: 41%;margin: 0 3%;}
+	.partner-login .signin,.partner-login .signup {padding: 10px;}
+	.partner-login .social-bx .btn {min-width: 150px;}
+
+
+	/* contact-bg */
+	.contact-bg h2 {font-size: 38px;}
+
+	/*footer*/
+	footer h4 {font-size: 20px;}
+	footer ul li {margin-bottom: 15px;}
+}
+
+@media screen and (max-width: 991px) { 
+	/*Chat Section*/
+	.chat-main .chat-bg .chat-list-box ul li {padding: 10px;}
+	.chat-main .chat-bg .chat-list-box ul li .icon-box {width: 50px;height: 50px;margin-right: 10px;}
+	.chat-main .chat-bg .chat-list-box ul li .content {width: calc(100% - 60px);}
+	.chat-main .chat-bg .chat-list-box ul li .content h4 {font-size: 14px;}
+	.chat-main .chat-bg .chat-list-box ul li .content p {font-size: 12px;}
+	.chat-main .chat-right-bx .chb-head {padding: 10px 20px;}
+	.chat-main .chat-right-bx .chb-head h3 {font-size: 1.5rem;}
+	.chat-main .chat-right-bx .chat-box {padding: 30px 20px 90px;}
+	.chat-main .chat-right-bx .chat-box .comment-box .comment-desc {width: 90%;}
+	.chat-main .chat-right-bx .chat-box .comment-box .comment-desc p {line-height: 1.2;}
+
+
+	/*modal*/
+	.modal.assign-tag .modal-dialog {max-width: 50%;}
+	.signpop-bg .modal-dialog .modal-content .plan-box h3 {margin: 50px 0 0; font-size: 20px; line-height: 30px; padding: 0 30px;}
+	.signpop-bg .modal-dialog .modal-content .sign-box,.forpop-bg .modal-dialog .modal-content .sign-box {padding: 50px 30px;}
+	.signpop-bg .modal-dialog .modal-content .sign-box h3,.forpop-bg .modal-dialog .modal-content .sign-box h3 {margin: 0 0 45px; font-size: 23px;}
+	.signpop-bg .modal-dialog .modal-content .sign-box h3 .or {margin: 0 15px;}
+	.signpop-bg .modal-dialog .modal-content .sign-box .form-group,.forpop-bg .modal-dialog .modal-content .sign-box .form-group {margin: 0 0 30px;}
+	.signpop-bg .modal-dialog .modal-content .sign-box .or-box {margin: 30px 0;}
+	.signpop-bg .modal-dialog .modal-content .sign-box .social-signin li a {padding: 17px 0 17px 45px;}
+	.signpop-bg .modal-dialog .modal-content .sign-box .forgot-text,
+	.signpop-bg .modal-dialog .modal-content .sign-box .first-text {font-size: 14px;}
+
+	/*header*/
+	header.navbar.darkHeader .navbar-collapse{top: 75px;}
+	header.navbar .navbar-collapse{position: absolute; width: 100%; top: 120px; background: #fff; right: 0px;}
+	header.navbar .navbar-collapse ul.navbar-nav{text-align: left;}
+	header.navbar .navbar-collapse ul.navbar-nav .nav-item:first-child{border-top: 1px solid #41272b;}
+	header.navbar .navbar-collapse ul.navbar-nav .nav-item{border-bottom: 1px solid #a8a8a8;}
+	header.navbar .navbar-collapse ul.navbar-nav .nav-item .nav-link{color: #391111;padding: 12px 30px;width: 100%;}
+	header.navbar .navbar-collapse ul.navbar-nav .nav-item .nav-link:hover{color: #fff;background-color: #33d402;}
+	header.navbar .navbar-collapse ul.navbar-nav .nav-item.btn-signup{padding: 12px 30px;}
+	
+	header.navbar .nav-item.notify .dropdown-menu.dropdown-menu-right {right: -60px;}
+	header.navbar .nav-item.notify .dropdown-menu {min-width: 360px;}
+	header.navbar .nav-item.notify .dropdown-menu .drp-head:before {right: 21.1%;}
+
+	header.navbar .responsive-menu .nav-item.profile-bx .pf-name{display: none;}
+	header.navbar .responsive-menu .nav-item.profile-bx .img {width: 50px;height: 50px;}
+
+	header.navbar .nav-item.notify .dropdown-menu .drp-body .notify-list .nl-name p {line-height: 15px;margin-top: 3px;}
+
+	/*banner*/
+	.banner-bg .carousel-inner .carousel-item.banner1 {background-position: 65% 100%;}
+	.banner-bg .carousel-inner .carousel-item.banner2 {background-position: 35% 100%;}
+	.banner-bg .carousel-inner .carousel-item.banner3 {background-position: 90% 100%;}
+
+	/*sections*/
+	.feature,.works,.advisor {padding: 50px 0;}
+
+	/*advisor*/
+	.become {margin: 0 0 30px;}
+
+	/*card*/
+	.card .card-left {flex: 0 0 130px;}
+	.card .card-body h3.card-title, .card .card-body ul li {max-width: 165px;}
+
+	.apply-bx .doc-bx li {padding: 15px 0 !important;}
+	.apply-bx .doc-bx li h4 {font-size: 20px;}
+	.apply-bx .doc-bx li .btn {padding: 9px 15px;font-size: 12px;}
+	.apply-bx .doc-bx li .select-bx {width: 130px;}
+	.apply-bx .doc-bx li .select-bx .custom-select-trigger {padding: 8px 30px 8px 10px;font-size: 12px;}
+
+
+	/* college-info */
+	.college-info .college-name h3 {font-size: 25px;}
+	.college-info .college-name h3 a {margin-left: 5px;}
+	.college-info .tution-bx .tution-bx-tag span {font-size: 15px;}
+	.college-info .tution-bx h2 {font-size: 36px;}
+	.college-info .college-name p {font-size: 13px;}
+	.college-info .tution-bx .btns {margin-left: 10px !important;}
+	.college-info .tution-bx .btns .btn {padding: 9px 15px;font-size: 13px;}
+
+	/*middle-bx*/
+	.middle-bx .feature-bx li {width: 33.33%;margin: 0;padding: 5px;}
+
+
+	/*recruiter-signup*/
+	.resi-bg .form-group .form-control {padding: 6px;font-size: 10px;}
+	.resi-bg .select-bx .custom-select-trigger {font-size: 10px; padding: 6px 30px 6px 6px; white-space: nowrap;}
+	.resi-bg .select-bx .custom-select-trigger:after {right: 15px;}
+
+
+	/*profile-view*/
+	.profile-view .user-profile-img {height: 150px;}
+	.profile-view .comment-box .profile-img {height: 55px;}
+
+	.comment-box .comment-desc {padding: 15px;}
+
+	/*file-upload*/
+	.file-upload {height: 200px;margin-top: 30px;}
+
+
+	/* partner-login */
+	.partner-login .card {width: 42%; margin: 0 2%;}
+	.partner-login .form-control {padding: 5px 0 !important;}
+	.partner-login .signin, .partner-login .signup {padding: 0;}
+	.partner-login .social-bx .btn {min-width: 120px;padding: 10px 10px 10px 20px;font-size: 14px;}
+	.partner-login .social-bx .btn.btn-facebook,.partner-login .social-bx .btn.btn-google {background-position: 5% 0;}
+
+
+	/* contact-bg */
+	.contact-bg iframe {height: 290px; margin: 0 0 30px;}
+
+	/*reviews-box*/
+	.reviews-bg .reviews-box .content {padding: 15px;}
+	.reviews-bg .reviews-box .content h4 {font-size: 20px;margin:0 0 10px;}
+	.reviews-bg .reviews-box .content .reviews-title h6 {font-size: 16px;}
+
+	/* ic-my-student */
+	.ic-my-stud .stud-list .img {width: 120px;height: 120px;}
+	.ic-my-stud .stud-list .stud-right {width: 33%;}
+	.ic-my-stud .stud-list .stud-body {width: 45%;}
+
+	.tr-market .stud-list .img {width: 100px;height: 100px; margin-right: 10px !important;}
+	.tr-market .stud-list h4 {font-size: 18px;}
+	.tr-market .stud-list .lists-action li {margin-left: 10px;}
+	.tr-market .stud-list .lists-action li a {font-size: 14px;}
+	.tr-market .stud-list .lists-action li a svg {width: 20px}
+
+
+	/*footer*/
+	footer h4 {margin-top: 30px;}
+	footer .copyright {display: block !important; text-align: center;}
+	footer .copyright p {display: block !important; margin: 0 0 15px !important;}
+	footer ul {justify-content: center;}
+
+}
+
+@media screen and (max-width: 767px) {
+	/*Chat Section*/
+	.chat-main .chat-right-bx {border-left: 0;border-top: solid 1px rgba(42, 64, 108,1); margin: 40px 0 0;box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);height: auto;}
+	.chat-main .chat-bg {box-shadow: none;background-color: transparent;}
+	.chat-main .chat-bg .chat-list-box {box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);}
+
+	/*notification*/
+	header.navbar .nav-item.notify .dropdown-menu .drp-head {padding: 10px;}
+	header.navbar .nav-item.notify .dropdown-menu .drp-head h4 {font-size: 24px;line-height: 20px;}
+	header.navbar .nav-item.notify .dropdown-menu .drp-head h4 span {font-size: 16px;}
+	header.navbar .nav-item.notify .dropdown-menu .drp-body .notify-list li {padding: 5px 10px;}
+	header.navbar .nav-item.notify .dropdown-menu .drp-body .notify-list .nl-name h5 {font-size: 14px; line-height: 15px;}
+	header.navbar .nav-item.notify .dropdown-menu .drp-body .notify-list .nl-name p {font-size: 12px;}
+	header.navbar .nav-item.notify .dropdown-menu .drp-body .notify-list .mints {font-size: 14px;}
+	header.navbar .nav-item.notify .dropdown-menu .drp-body .view {font-size: 14px; padding: 10px 0;}
+	header.navbar .responsive-menu .nav-item.profile-bx .img {width: 45px;height: 45px;}
+
+	/*banner*/
+	.banner-bg.sub-banner .carousel-inner,.banner-bg .carousel-inner {height: 100vh;}
+	.banner-bg.sub-banner h2,.banner-bg h2{font-size: 35px;}
+	.banner-bg .carousel-inner .carousel-item.banner1 {background-position: 70% 100%;}
+	.banner-bg .carousel-inner .carousel-item.banner2 {background-position: 50% 100%;}
+	.banner-bg .carousel-inner .carousel-item.banner3 {background-position: 100% 100%;}
+
+	/*heading*/
+	.heading {margin-top: 20px;font-size: 35px;line-height: 40px;}
+	.heading span {font-size: 100px;}
+
+	/*feature*/
+	.box .bx-bottom .btns .btn {min-width: 200px;}
+
+	/*college-info*/
+	.college-info-head {display: block !important;}
+	.college-info .college-name {margin: 0 0 30px !important;}
+	.college-info .tution-bx {margin: inherit !important}
+	.college-info .tution-bx .btns {margin-left: auto !important;}
+	
+	/*middle-bx*/
+	.middle-bx .card .card-body h3.card-title {max-width: 250px;}
+	.middle-bx .browse-bx .search-bx .form-group {margin-right: 10px;}
+
+	/*recruiter-signup*/
+	.resi-bg .form-group .form-control {padding: 10px;font-size: 13px;}
+	.resi-bg .select-bx .custom-select-trigger {font-size: 13px; padding: 10px 30px 10px 10px; white-space: inherit;}
+
+	.info-bg .select-bx, .info-bg .form-group {width: 50%;}
+	
+	.cb-head {display: block !important;text-align: right;}
+	.cb-head h5.card-title {text-align: left; margin-bottom: 20px !important;}
+
+	/*card*/
+	.card.agent-box .card-body {padding: 10px;}
+	.card .card-right {padding: 8px 10px 0 0;}
+
+	/* student agent profile view */
+	.profile-view .user-profile-bx {margin-bottom: 30px;}
+	.profile-view .user-profile-bx ul li {text-align: center;}
+	.profile-view .user-profile-bx ul li.map-icon {background-position: 41% 35%;}
+	.profile-view .user-profile-bx ul li.apt-icon {background-position: 40% 50%;}
+	.profile-view .user-profile-bx ul li.lng-icon {background-position: 36% 50%;}
+
+	.apply-bx .doc-bx li {margin: 0 !important;display: block !important;}
+	.apply-bx .doc-bx li h4 {margin-bottom: 15px !important;}
+	.apply-bx .doc-bx li .select-bx {margin-left: inherit !important;display: inline-block;}
+
+	.apply-bx .doc-bx.doc-list li {display: flex !important;}
+	.apply-bx .doc-bx.doc-list li h4 {margin: auto 0 !important;}
+
+
+	/*reviews-box*/
+	.reviews-bg .reviews-box .img {width: 150px;}
+	.reviews-bg .reviews-box .content p {font-size: 13px;overflow: hidden; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;}
+
+	/* partner-login */
+	.login-del,.partner-login .or {display: block !important;}
+	.partner-login .card {width: 100%; margin: 0;}
+	.partner-login .social-bx .btn {min-width: 180px;font-size: 16px;padding: 15px;}
+	.partner-login .or {text-align: center;margin: 50px 0;}
+	.partner-login .or:before {height: 2px;width: 100%;top: 50%;transform: translateY(-50%);left: 0;bottom: inherit;}
+	.partner-login .or p {width: 15%;padding: 0; margin: auto;}
+
+	/*contact-bg*/
+	.contact-bg h2,.noti-main h2,.reviews-bg h2 {font-size: 30px;}
+
+	/* notifiaction */
+	.noti-main .noti-bg:before {left: 55px;}
+	.noti-main .noti-bg .noti-box .noti-date {font-size: 14px;padding: 0 10px;}
+	.noti-main .noti-bg .noti-box ul {padding: 0 0 0 10px;}
+	.noti-main .noti-bg .noti-box ul li .icon-box {width: 50px;height: 50px;}
+	.noti-main .noti-bg .noti-box ul li .content h4,.noti-main .noti-bg .noti-box ul li .content h4 span.time {display: block;line-height: 1.5;}
+
+	/* ic-my-student */
+	.ic-my-stud .stud-list .stud-body {width: calc(100% - 140px);}
+	.ic-my-stud .stud-list .stud-right {width: calc(100% - 140px);text-align: left !important;margin-top: 10px !important;}
+
+	.tr-market .stud-list {display: block !important;text-align: center;}
+	.tr-market .stud-list .img {width: 120px;height: 120px; margin: 0 auto !important;}
+	.tr-market .stud-list h4 {margin: 15px 0px !important;}
+	.tr-market .stud-list .lists-action {justify-content: center;}
+
+	.stud-btn-bx {text-align: left !important;padding-top: 15px;}
+}
+
+@media screen and (max-width: 575px) {
+	/*Chat Section*/
+	.chat-main .chat-bg .chat-list-box ul li .icon-box {margin-right: 10px;}
+
+	/*modal*/
+	.modal.assign-tag .modal-dialog {max-width: 90%;}
+	.signpop-bg .modal-dialog .modal-content .plan-box {display: none;}
+	.signpop-bg .modal-dialog .modal-content .sign-box {width: 100%;}
+	.forpop-bg .modal-dialog {width: 90%;}
+
+	/*header*/
+	header.navbar {padding: 10px 15px !important;}
+
+	/*heading*/
+	.heading {font-size: 32px;line-height: 32px;margin-top: 15px;}
+	.heading span {font-size: 70px;}
+
+	/*banner*/
+	.banner-bg .carousel-inner {height: 90vh;}
+	.banner-bg h2,.banner-bg.sub-banner h2 {font-size: 30px;}
+	.banner-bg p {line-height: 1.5;}
+
+	/*feature*/
+	.box .bx-bottom .btns .btn {min-width: 160px;}
+
+	/* card */
+	.card.agent-box {flex-direction: inherit !important;display: block;}
+	.card.agent-box .card-left {flex: 0 0 100%;border-radius: 10px 10px 0 0;overflow: hidden;}
+	.card .card-left .favorites-btn {bottom: 30px;font-size: 15px;}
+	.card.agent-box .card-body {padding: 20px !important;}
+	.card .card-body h3.card-title {font-size: 24px; max-width: inherit; white-space: normal;margin: 0 0 20px;}
+	.card .card-body ul li {font-size: 16px;white-space: normal;max-width: inherit;margin: 0 0 10px;}
+	.card .card-right {padding: 0 20px 20px; width: 100%; text-align: left;}
+	.card .card-right .hours {font-size: 18px; text-align: left;}
+	.card .card-right .hours svg {width: auto;height: auto;}
+	.card .card-right .rating-box,.institution-program-bg .card .card-right .rating-box {justify-content: flex-start;}
+	.card .card-right .btn {display: block;}
+
+	/*college-info*/
+	.college-info .tution-bx {display: block !important;}
+	.college-info .tution-bx h2 {margin: 10px 0 20px !important;}
+
+	/*middle-bx*/
+	.middle-bx {margin-bottom: 30px;}
+	.middle-bx .links {padding: 8px;}
+	.middle-bx .links li a {font-size: 11.5px;}
+
+	.middle-bx .feature-bx li {width: 50%;margin: 0;padding: 5px;}
+	.middle-bx .select-bx,.middle-bx .browse-bx .search-bx {width: 100%;padding: 0 0 20px 0;}
+	.middle-bx .browse-bx .btn {margin: 20px 0;}
+
+	.middle-bx .browse-bx .search-bx .form-group {margin-right: 0;max-width: 100%;}
+
+	.info-bg .select-bx, .info-bg .form-group,.info-bg .form-group.xs {width: 100%;}
+
+	/* student agent profile view */
+	.profile-view .user-profile-bx ul li.map-icon {background-position: 37% 35%;}
+	.profile-view .user-profile-bx ul li.apt-icon {background-position: 36% 50%;}
+	.profile-view .user-profile-bx ul li.lng-icon {background-position: 31% 50%;}
+
+	.apply-bx .doc-bx li .btn {display: block;margin: 0 0 15px !important;}
+	.apply-bx .doc-bx li .select-bx {width: 100%; margin-bottom: 15px !important;}
+
+	/* partner-login */
+	.partner-login .social-bx .btn,.partner-login .social-bx .btn {min-width: 140px; font-size: 14px; padding: 10px;}
+	.partner-login .signup .form-row {display: block;}
+
+	/*review*/
+	.reviews-bg .reviews-box {display: block;}
+	.reviews-bg .reviews-box .content,.reviews-bg .reviews-box .img {width: 100%;}
+	.reviews-bg .reviews-box .img img {width: 100%;display: block;}
+	.reviews-bg .reviews-box .content p {font-size: 14px;-webkit-line-clamp: 4;}
+
+	/* ic-my-student */
+	.ic-my-stud .stud-list {text-align: center;display: block !important;}
+	.ic-my-stud .stud-list .img {margin: 0 auto 20px !important;}
+	.ic-my-stud .stud-list .stud-body {width: 100%;}
+	.ic-my-stud .stud-list .stud-right {width: 100%; text-align: center !important;}
+	.ic-my-stud .lists-info {margin: 0 auto !important;}
+
+	.doc-links {justify-content: center;margin-bottom: 20px;}
+	.doc-links li {margin: 0 15px 10px;}
+
+
+	/*footer*/
+	footer ul.social li a{margin: 0 10px !important;font-size: 14px;}
+	footer ul.social li:first-child a{margin-left: 0 !important;}
+	footer ul.social li:last-child a{margin-right: 0 !important;}
+
+}
+
+@media screen and (max-width: 375px) {
+	/*modal*/
+	.signpop-bg .modal-dialog .modal-content .sign-box, .forpop-bg .modal-dialog .modal-content .sign-box{padding: 50px 20px;}
+	.signpop-bg .modal-dialog .modal-content .sign-box .social-signin {display: block;}
+	.signpop-bg .modal-dialog .modal-content .sign-box .social-signin li {width: 100%;text-align: center;}
+	.signpop-bg .modal-dialog .modal-content .sign-box .social-signin li a {padding: 17px 0;}
+	.signpop-bg .modal-dialog .modal-content .sign-box .social-signin .facebook a {background-position: 25% 0;}
+	.signpop-bg .modal-dialog .modal-content .sign-box .social-signin .google a {background-position: 26% 0;margin-top: 20px;}
+	
+	/*header*/
+	header.navbar .nav-item .nav-link {font-size: 14px;}
+
+	/*notification*/
+	header.navbar .nav-item.notify .dropdown-menu.dropdown-menu-right {right: -75px;min-width: 345px;}
+	header.navbar .nav-item.notify .dropdown-menu .drp-head:before {right: 26.4%;}
+	header.navbar .nav-item.notify .dropdown-menu .drp-head h4 {font-size: 20px;}
+	header.navbar .nav-item.notify .dropdown-menu .drp-head h4 span {font-size: 12px;}
+
+	/* student agent profile view */
+	.profile-view .user-profile-bx ul li.map-icon {background-position: 35% 35%;}
+	.profile-view .user-profile-bx ul li.apt-icon {background-position: 34% 50%;}
+	.profile-view .user-profile-bx ul li.lng-icon {background-position: 28% 50%;}
+ 	
+ 	.apply-bx .btn-submit {width: 100%; padding: 9px; font-size: 12px;}
+ 	.apply-bx .doc-bx.doc-list li h4 {text-overflow: ellipsis; max-width: 270px; white-space: nowrap; overflow: hidden; }
+
+ 	/* partner-login */
+	.partner-login .social-bx .btn {min-width: 100%; margin: 0 0 15px;}
+	.partner-login .social-bx .btn.btn-facebook, .partner-login .social-bx .btn.btn-google {background-position: 30% 0;}
+}
+
+@media screen and (max-width: 320px) {
+	/*notification*/
+	header.navbar .nav-item.notify .dropdown-menu.dropdown-menu-right {min-width: 285px;}
+	header.navbar .nav-item.notify .dropdown-menu .drp-head:before {right: 32%;}
+
+	/*feature*/
+	.box .bx-bottom {display: block !important;}
+	.box .bx-bottom .btns {margin-top: 20px !important;}
+
+ 	.apply-bx .doc-bx.doc-list li h4 {max-width: 200px; }
+	
+	/* ic-my-student */
+	.ic-my-stud .lists-info li a {font-size: 12px;}
+
+	/*footer*/
+	footer ul.social li a {margin: 0 !important;}
+}

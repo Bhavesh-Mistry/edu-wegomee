@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Welcome to weegomee</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+      integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+   <link rel="stylesheet" ty pe="text/css" href="css/bootstrap.css">
+   <link rel="stylesheet" ty pe="text/css" href="css/owl.carousel.css">
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+</head>
+
+<body>
+
+   <header class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+         <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" alt="">
+         </a>
+         <button class="navbar-toggler collapsed mr-2 ml-auto" type="button" data-toggle="collapse"
+            data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+
+         <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+               <li class="nav-item">
+                  <a class="nav-link" href="aboutus.html">About Us</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="insitutions.html">Insitutions</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="partner.html">Partners</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="student.html">Students</a>
+               </li>
+               <!-- <li class="nav-item dropdown notify">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"width="17px" height="20px" viewBox="0 0 340 340" enable-background="new 0 0 340 340" xml:space="preserve"> <path d="M334.985,242.98c-39.989-40.001-46.007-60.072-46.007-123.98c0-65.722-53.267-119-118.978-119S51.024,53.278,51.024,119 c0,34.458-0.918,47.322-5.661,63.115c-5.899,19.674-18.009,38.511-40.353,60.865C-5.694,253.69,1.889,272,17.03,272h94.333 l-0.856,8.5c0,32.86,26.634,59.5,59.489,59.5c32.854,0,59.488-26.64,59.488-59.5l-0.856-8.5h94.339 C338.113,272,345.695,253.69,334.985,242.98z M170.006,323c-23.466,0-42.494-19.035-42.494-42.5l0.856-8.5h83.267l0.867,8.5 C212.501,303.965,193.473,323,170.006,323z M17.035,255c50.989-51,50.989-85,50.989-136c0-56.327,45.656-102,101.977-102 c56.321,0,101.978,45.673,101.982,102c0,51,0,85,50.988,136H17.035z"/> </svg>
+                      <span class="badge">5</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                      <div class="drp-head text-center">
+                        <h4>
+                          5 New
+                          <span>App Notifications</span>
+                        </h4>
+                      </div>
+                      <div class="drp-body">
+                        <ul class="notify-list">
+                          <li class="d-flex">
+                            <div class="mr-3 d-block">
+                              <img src="images/icon-comment.png" alt="">
+                            </div>
+                            <div class="d-block nl-name">
+                              <h5>New Message</h5>
+                              <p>Are your going to meet me tonight?</p>
+                            </div>
+                            <span class="ml-auto mb-auto mints">10 Mins ago</span>
+                          </li>
+                          <li class="d-flex">
+                            <div class="mr-3 d-block">
+                              <img src="images/icon-box.png" alt="">
+                            </div>
+                            <div class="d-block nl-name">
+                              <h5 class="green">New Order Recieved</h5>
+                              <p>You got new order of goods.</p>
+                            </div>
+                            <span class="ml-auto mb-auto mints">12 Mins ago</span>
+                          </li>
+                          <li class="d-flex">
+                            <div class="mr-3 d-block">
+                              <img src="images/icon-warning.png" alt="">
+                            </div>
+                            <div class="d-block nl-name">
+                              <h5 class="red">Server Limit Reached!</h5>
+                              <p>You got new order of goods.</p>
+                            </div>
+                            <span class="ml-auto mb-auto mints">15 Mins ago</span>
+                          </li>
+                          <li class="d-flex">
+                            <div class="mr-3 d-block">
+                              <img src="images/icon-orange-calander.png" alt="">
+                            </div>
+                            <div class="d-block nl-name">
+                              <h5 class="orange">Bruce's Party</h5>
+                              <p>Chocolate cake oat cake tiramisu marzipan</p>
+                            </div>
+                            <span class="ml-auto mb-auto mints">18 Mins ago</span>
+                          </li>
+                        </ul>
+                        <a href="notifications.html" class="view text-center">View All Notifications</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown profile-bx">
+                    <a class="nav-link dropdown-toggle d-flex" href="#" role="button" data-toggle="dropdown">
+                      <span class="my-auto mr-2">Amal Chamlee</span>
+                      <div class="img">
+                        <img src="images/small-user-img.jpg" alt="">
+                      </div>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                      <a class="dropdown-item" href="student-my-profile.html">My Profile</a>
+                      <a class="dropdown-item" href="reviews.html">Reviews</a>
+                      <a class="dropdown-item" href="#">Logout</a>
+                    </div>
+                  </li> -->
+            </ul>
+         </div>
+         <ul class="d-flex responsive-menu">
+            <li class="nav-item dropdown notify">
+               <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17px" height="20px"
+                     viewBox="0 0 340 340" enable-background="new 0 0 340 340" xml:space="preserve">
+                     <path
+                        d="M334.985,242.98c-39.989-40.001-46.007-60.072-46.007-123.98c0-65.722-53.267-119-118.978-119S51.024,53.278,51.024,119 c0,34.458-0.918,47.322-5.661,63.115c-5.899,19.674-18.009,38.511-40.353,60.865C-5.694,253.69,1.889,272,17.03,272h94.333 l-0.856,8.5c0,32.86,26.634,59.5,59.489,59.5c32.854,0,59.488-26.64,59.488-59.5l-0.856-8.5h94.339 C338.113,272,345.695,253.69,334.985,242.98z M170.006,323c-23.466,0-42.494-19.035-42.494-42.5l0.856-8.5h83.267l0.867,8.5 C212.501,303.965,193.473,323,170.006,323z M17.035,255c50.989-51,50.989-85,50.989-136c0-56.327,45.656-102,101.977-102 c56.321,0,101.978,45.673,101.982,102c0,51,0,85,50.988,136H17.035z" />
+                  </svg>
+                  <span class="badge">5</span>
+               </a>
+               <div class="dropdown-menu dropdown-menu-right">
+                  <div class="drp-head text-center">
+                     <h4>
+                        5 New
+                        <span>App Notifications</span>
+                     </h4>
+                  </div>
+                  <div class="drp-body">
+                     <ul class="notify-list">
+                        <li class="d-flex">
+                           <div class="mr-3 d-block">
+                              <img src="images/icon-comment.png" alt="">
+                           </div>
+                           <div class="d-block nl-name">
+                              <h5>New Message</h5>
+                              <p>Are your going to meet me tonight?</p>
+                           </div>
+                           <span class="ml-auto mb-auto mints">10 Mins ago</span>
+                        </li>
+                        <li class="d-flex">
+                           <div class="mr-3 d-block">
+                              <img src="images/icon-box.png" alt="">
+                           </div>
+                           <div class="d-block nl-name">
+                              <h5 class="green">New Order Recieved</h5>
+                              <p>You got new order of goods.</p>
+                           </div>
+                           <span class="ml-auto mb-auto mints">12 Mins ago</span>
+                        </li>
+                        <li class="d-flex">
+                           <div class="mr-3 d-block">
+                              <img src="images/icon-warning.png" alt="">
+                           </div>
+                           <div class="d-block nl-name">
+                              <h5 class="red">Server Limit Reached!</h5>
+                              <p>You got new order of goods.</p>
+                           </div>
+                           <span class="ml-auto mb-auto mints">15 Mins ago</span>
+                        </li>
+                        <li class="d-flex">
+                           <div class="mr-3 d-block">
+                              <img src="images/icon-orange-calander.png" alt="">
+                           </div>
+                           <div class="d-block nl-name">
+                              <h5 class="orange">Bruce's Party</h5>
+                              <p>Chocolate cake oat cake tiramisu marzipan</p>
+                           </div>
+                           <span class="ml-auto mb-auto mints">18 Mins ago</span>
+                        </li>
+                     </ul>
+                     <a href="notifications.html" class="view text-center">View All Notifications</a>
+                  </div>
+               </div>
+            </li>
+            <li class="nav-item dropdown profile-bx">
+               <a class="nav-link dropdown-toggle d-flex" href="#" role="button" data-toggle="dropdown">
+                  <span class="my-auto mr-2 pf-name">Amal Chamlee</span>
+                  <div class="img">
+                     <img src="images/small-user-img.jpg" alt="">
+                  </div>
+               </a>
+               <div class="dropdown-menu dropdown-menu-right">
+                  <a class="dropdown-item" href="student-my-profile.html">My Profile</a>
+                  <a class="dropdown-item" href="reviews.html">Reviews</a>
+                  <a class="dropdown-item" href="#">Logout</a>
+               </div>
+            </li>
+         </ul>
+      </div>
+   </header>
+
+   <section class="college-info mt-120">
+      <div class="container">
+         <div class="row">
+            <div class="col-12 college-info-head d-flex flex-wrap">
+               <div class="college-name my-auto">
+                  <h3>
+                     Langara College
+                     <a href="#">
+                        <svg class="mr-1 my-auto" height="10px" viewBox="0 0 368 368" width="10px"
+                           xmlns="http://www.w3.org/2000/svg">
+                           <path
+                              d="m347.816406 100.367188c-30.511718-59.511719-92.464844-100.367188-163.816406-100.367188-71.375 0-133.335938 40.871094-163.839844 100.425781-.121094.238281-.265625.453125-.359375.703125-12.632812 24.925782-19.800781 53.070313-19.800781 82.871094 0 29.808594 7.167969 57.953125 19.800781 82.871094.09375.25.238281.464844.359375.703125 30.496094 59.554687 92.464844 100.425781 163.839844 100.425781 71.351562 0 133.304688-40.847656 163.816406-100.367188.136719-.265624.296875-.503906.398438-.785156 12.625-24.917968 19.785156-53.054687 19.785156-82.847656s-7.160156-57.929688-19.785156-82.847656c-.109375-.28125-.261719-.519532-.398438-.785156zm-12.257812 155.632812h-70.320313c3.90625-19.710938 6.226563-41.265625 6.664063-64h79.691406c-1.082031 22.824219-6.699219 44.433594-16.035156 64zm-151.558594 96c-25.304688 0-48-32.441406-60.871094-80h121.742188c-12.871094 47.558594-35.566406 80-60.871094 80zm-64.695312-96c-4.136719-19.671875-6.640626-41.304688-7.121094-64h143.640625c-.488281 22.695312-2.992188 44.328125-7.121094 64zm-102.898438-64h79.691406c.445313 22.734375 2.757813 44.289062 6.664063 64h-70.320313c-9.335937-19.566406-14.953125-41.175781-16.035156-64zm16.035156-80h70.320313c-3.90625 19.710938-6.226563 41.265625-6.664063 64h-79.691406c1.082031-22.824219 6.699219-44.433594 16.035156-64zm151.558594-96c25.304688 0 48 32.441406 60.871094 80h-121.742188c12.871094-47.558594 35.566406-80 60.871094-80zm64.695312 96c4.136719 19.664062 6.640626 41.304688 7.121094 64h-143.640625c.488281-22.695312 2.992188-44.335938 7.121094-64zm23.207032 64c-.445313-22.734375-2.757813-44.289062-6.664063-64h70.320313c9.335937 19.566406 14.953125 41.175781 16.035156 64zm54.929687-80h-65.214843c-8.097657-31.742188-20.511719-57.632812-35.722657-74.496094 42.488281 10.96875 78.425781 38.089844 100.9375 74.496094zm-184.734375-74.496094c-15.203125 16.863282-27.617187 42.753906-35.722656 74.496094h-65.214844c22.519532-36.40625 58.457032-63.527344 100.9375-74.496094zm-100.929687 250.496094h65.207031c8.097656 31.742188 20.511719 57.632812 35.722656 74.496094-42.480468-10.96875-78.417968-38.097656-100.929687-74.496094zm184.734375 74.496094c15.203125-16.863282 27.617187-42.753906 35.722656-74.496094h65.207031c-22.511719 36.398438-58.449219 63.527344-100.929687 74.496094zm0 0" />
+                        </svg>
+                        Website
+                     </a>
+                  </h3>
+                  <div class="d-flex flex-wrap">
+                     <div class="rating-box">
+                        <span class="star"><svg version="1.1" id="Shape_3_1_" xmlns="http://www.w3.org/2000/svg"
+                              xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15px" height="15px"
+                              viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                              <polyline fill="#ffe400" fill-rule="evenodd" clip-rule="evenodd"
+                                 points="7.5,0 9.972,4.714 14.999,5.729 11.5,9.658 12.135,14.999 7.5,12.714 2.865,14.999 3.5,9.658 0.001,5.729 5.028,4.714 7.5,0 " />
+                           </svg></span>
+                        <span class="star"><svg version="1.1" id="Shape_3_1_" xmlns="http://www.w3.org/2000/svg"
+                              xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15px" height="15px"
+                              viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                              <polyline fill="#ffe400" fill-rule="evenodd" clip-rule="evenodd"
+                                 points="7.5,0 9.972,4.714 14.999,5.729 11.5,9.658 12.135,14.999 7.5,12.714 2.865,14.999 3.5,9.658 0.001,5.729 5.028,4.714 7.5,0 " />
+                           </svg></span>
+                        <span class="star"><svg version="1.1" id="Shape_3_1_" xmlns="http://www.w3.org/2000/svg"
+                              xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15px" height="15px"
+                              viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                              <polyline fill="#ffe400" fill-rule="evenodd" clip-rule="evenodd"
+                                 points="7.5,0 9.972,4.714 14.999,5.729 11.5,9.658 12.135,14.999 7.5,12.714 2.865,14.999 3.5,9.658 0.001,5.729 5.028,4.714 7.5,0 " />
+                           </svg></span>
+                     </div>
+                     <p class="mt-2 ml-2">Vancouver, British Columbia, Canada</p>
+                  </div>
+               </div>
+               <div class="tution-bx ml-auto d-flex flex-wrap">
+                  <!-- <div class="tution-bx-tag my-auto mr-2">
+                  <span>AVG</span>
+                  <span>TUTION</span>
+                </div> -->
+                  <h2 class="my-auto">$1,000</h2>
+                  <div class="btns ml-4">
+                     <a href="student-apply.html" class="btn btn-br mb-2 btn-sm">Apply Now</a>
+                     <a href="#" class="btn btn-green btn-sm">Connect to Agent</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section class="subpages-bg">
+      <div class="container">
+         <div class="row">
+            <div class="col-12 col-lg-3 col-md-4">
+               <div class="card">
+                  <div class="card-body filter-bx">
+                     <h5 class="card-title">Refine Your Search</h5>
+                     <div class="form-group">
+                        <input type="text" name="location" placeholder="Location..." class="form-control">
+                        <input type="button" name="search" class="search-btn">
+                     </div>
+
+                     <h5 class="card-title sm">Campus</h5>
+                     <div class="ml-3 mb-4">
+                        <div class="custom-chk">
+                           <input type="checkbox" id="chk1">
+                           <label for="chk1">Vancouver</label>
+                        </div>
+                        <div class="custom-chk">
+                           <input type="checkbox" id="chk2">
+                           <label for="chk2">Kamloops</label>
+                        </div>
+                        <div class="custom-chk">
+                           <input type="checkbox" id="chk3">
+                           <label for="chk3">Kootenay</label>
+                        </div>
+                     </div>
+
+                     <h5 class="card-title sm">Programs</h5>
+                     <div class="ml-3">
+                        <h5 class="card-title sm">Level</h5>
+                        <div class="ml-3 mb-4">
+                           <div class="custom-chk">
+                              <input type="checkbox" id="chk4">
+                              <label for="chk4">Language Training</label>
+                           </div>
+                           <div class="custom-chk">
+                              <input type="checkbox" id="chk5">
+                              <label for="chk5">Diploma</label>
+                           </div>
+                           <div class="custom-chk">
+                              <input type="checkbox" id="chk6">
+                              <label for="chk6">Certificate</label>
+                           </div>
+                           <div class="custom-chk">
+                              <input type="checkbox" id="chk7">
+                              <label for="chk7">Associate Degree</label>
+                           </div>
+                           <div class="custom-chk">
+                              <input type="checkbox" id="chk8">
+                              <label for="chk8">Degree</label>
+                           </div>
+                           <div class="custom-chk">
+                              <input type="checkbox" id="chk9">
+                              <label for="chk9">Graduate Studies</label>
+                           </div>
+                           <div class="custom-chk">
+                              <input type="checkbox" id="chk10">
+                              <label for="chk10">PHD</label>
+                           </div>
+                           <div class="custom-chk">
+                              <input type="checkbox" id="chk11">
+                              <label for="chk11">Research</label>
+                           </div>
+                        </div>
+
+                        <h5 class="card-title sm">Faculty</h5>
+                        <div class="ml-3 mb-4">
+                           <div class="custom-chk">
+                              <input type="checkbox" id="chk12">
+                              <label for="chk12">Arts</label>
+                           </div>
+                           <div class="custom-chk">
+                              <input type="checkbox" id="chk13">
+                              <label for="chk13">Music</label>
+                           </div>
+                           <div class="custom-chk">
+                              <input type="checkbox" id="chk14">
+                              <label for="chk14">Sciences</label>
+                           </div>
+                           <div class="custom-chk">
+                              <input type="checkbox" id="chk15">
+                              <label for="chk15">Philosophy</label>
+                           </div>
+                           <div class="custom-chk">
+                              <input type="checkbox" id="chk16">
+                              <label for="chk16">Business</label>
+                           </div>
+                           <div class="custom-chk">
+                              <input type="checkbox" id="chk17">
+                              <label for="chk17">Communications</label>
+                           </div>
+                           <div class="custom-chk">
+                              <input type="checkbox" id="chk18">
+                              <label for="chk18">Healthcare</label>
+                           </div>
+                           <div class="custom-chk">
+                              <input type="checkbox" id="chk19">
+                              <label for="chk19">Travel & Tourism</label>
+                           </div>
+                        </div>
+
+                        <h5 class="card-title sm">Intake</h5>
+                        <div class="ml-3 mb-4">
+                           <div class="custom-chk">
+                              <input type="checkbox" id="chk20">
+                              <label for="chk20">Winter 2018</label>
+                           </div>
+                           <div class="custom-chk">
+                              <input type="checkbox" id="chk21">
+                              <label for="chk21">Spring 2018</label>
+                           </div>
+                           <div class="custom-chk">
+                              <input type="checkbox" id="chk22">
+                              <label for="chk22">Fall 2018</label>
+                           </div>
+                           <div class="custom-chk">
+                              <input type="checkbox" id="chk23">
+                              <label for="chk23">Winter 2019</label>
+                           </div>
+                        </div>
+
+                        <ul class="filter-bx-link">
+                           <li>
+                              <a href="#">Co-Op Pograms</a>
+                           </li>
+                           <li>
+                              <a href="#">Program List A-Z</a>
+                           </li>
+                           <li>
+                              <a href="#">Elligibility Criteria</a>
+                           </li>
+                           <li>
+                              <a href="#">Visa Requirements</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-12 col-lg-6 col-md-8">
+               <div class="middle-bx">
+
+                  <div class="program-del">
+                     <div class="">
+                        <div class="">
+                           <div class="program-head mb-4">
+                              <h4 class="title">2 Years - Post Secondary</h4>
+                              <div class="d-flex flex-wrap mt-2">
+                                 <div class="rating-box my-auto">
+                                    <span class="star">
+                                       <svg version="1.1" id="Shape_3_1_" xmlns="http://www.w3.org/2000/svg"
+                                          xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15px"
+                                          height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15"
+                                          xml:space="preserve">
+                                          <polyline fill="#ffe400" fill-rule="evenodd" clip-rule="evenodd"
+                                             points="7.5,0 9.972,4.714 14.999,5.729 11.5,9.658 12.135,14.999 7.5,12.714 2.865,14.999 3.5,9.658 0.001,5.729 5.028,4.714 7.5,0 " />
+                                       </svg>
+                                    </span>
+                                    <span class="star">
+                                       <svg version="1.1" id="Shape_3_1_" xmlns="http://www.w3.org/2000/svg"
+                                          xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15px"
+                                          height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15"
+                                          xml:space="preserve">
+                                          <polyline fill="#ffe400" fill-rule="evenodd" clip-rule="evenodd"
+                                             points="7.5,0 9.972,4.714 14.999,5.729 11.5,9.658 12.135,14.999 7.5,12.714 2.865,14.999 3.5,9.658 0.001,5.729 5.028,4.714 7.5,0 " />
+                                       </svg>
+                                    </span>
+                                    <span class="star">
+                                       <svg version="1.1" id="Shape_3_1_" xmlns="http://www.w3.org/2000/svg"
+                                          xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15px"
+                                          height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15"
+                                          xml:space="preserve">
+                                          <polyline fill="#ffe400" fill-rule="evenodd" clip-rule="evenodd"
+                                             points="7.5,0 9.972,4.714 14.999,5.729 11.5,9.658 12.135,14.999 7.5,12.714 2.865,14.999 3.5,9.658 0.001,5.729 5.028,4.714 7.5,0 " />
+                                       </svg>
+                                    </span>
+                                    <span class="star">
+                                       <svg version="1.1" id="Shape_3_1_" xmlns="http://www.w3.org/2000/svg"
+                                          xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15px"
+                                          height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15"
+                                          xml:space="preserve">
+                                          <polyline fill="#d4d4d4" fill-rule="evenodd" clip-rule="evenodd"
+                                             points="7.5,0 9.972,4.714 14.999,5.729 11.5,9.658 12.135,14.999 7.5,12.714 2.865,14.999 3.5,9.658 0.001,5.729 5.028,4.714 7.5,0 " />
+                                       </svg>
+                                    </span>
+                                    <span class="star">
+                                       <svg version="1.1" id="Shape_3_1_" xmlns="http://www.w3.org/2000/svg"
+                                          xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15px"
+                                          height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15"
+                                          xml:space="preserve">
+                                          <polyline fill="#d4d4d4" fill-rule="evenodd" clip-rule="evenodd"
+                                             points="7.5,0 9.972,4.714 14.999,5.729 11.5,9.658 12.135,14.999 7.5,12.714 2.865,14.999 3.5,9.658 0.001,5.729 5.028,4.714 7.5,0 " />
+                                       </svg>
+                                    </span>
+                                 </div>
+                                 <p class="my-auto ml-2">Vancouver, British Columbia, Canada</p>
+                              </div>
+                              <!-- <a href="student-apply.html" class="ml-auto btn btn-blue my-auto btn-sm">Apply Now</a>  -->
+                           </div>
+
+                           <div class="img mb-3">
+                              <img src="images/slide-img.jpg" alt="">
+                           </div>
+                           <div class="desc mb-4">
+                              <h4 class="title">Description/About</h4>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                           </div>
+
+                           <!--  <div class="program-tabs mb-4">
+                        <nav>
+                          <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="tab-campus1" data-toggle="tab" href="#tab-campus" role="tab">Campus</a>
+                            <a class="nav-item nav-link" id="tab-progra2" data-toggle="tab" href="#tab-program" role="tab">Programs</a>
+                            <a class="nav-item nav-link" id="tab-co-op-pro3" data-toggle="tab" href="#tab-co-op-prog" role="tab">Co-op Program</a>
+                            <a class="nav-item nav-link" id="tab-about4" data-toggle="tab" href="#tab-about" role="tab">Description/About</a>
+                          </div>
+                        </nav>
+                        <div class="tab-content p-3" id="nav-tabContent">
+                          <div class="tab-pane fade show active" id="tab-campus" role="tabpanel">
+                            <p>Vancouver</p>
+                          </div>
+                          <div class="tab-pane fade" id="tab-program" role="tabpanel">
+                            <table class="table details" width="100%">
+                              <tr>
+                                <th>Level</th>
+                                <td>:</td>
+                                <td>Language Training</td>
+                              </tr>
+                              <tr>
+                                <th>Faculty</th>
+                                <td>:</td>
+                                <td>Arts</td>
+                              </tr>
+                              <tr>
+                                <th>Intake</th>
+                                <td>:</td>
+                                <td>Winter 2018</td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="tab-pane fade" id="tab-co-op-prog" role="tabpanel" aria-labelledby="nav-contact-tab">
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                          </div>
+                          <div class="tab-pane fade" id="tab-about" role="tabpanel" aria-labelledby="nav-about-tab">
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                          </div>
+                        </div>
+                      </div> -->
+
+                           <div class="mb-4">
+                              <h4 class="title">Programs</h4>
+
+                              <table class="table details" width="100%">
+                                 <tr>
+                                    <th>Level</th>
+                                    <td>:</td>
+                                    <td>Language Training</td>
+                                 </tr>
+                                 <tr>
+                                    <th>Faculty</th>
+                                    <td>:</td>
+                                    <td>Arts</td>
+                                 </tr>
+                                 <tr>
+                                    <th>Intake</th>
+                                    <td>:</td>
+                                    <td>Winter 2018</td>
+                                 </tr>
+                                 <tr>
+                                    <th>Co-op Program</th>
+                                    <td>:</td>
+                                    <td>Yes</td>
+                                 </tr>
+                              </table>
+                           </div>
+
+                           <div class="mb-4">
+                              <h4 class="title">Campus : <span>Vancouver</span></h4>
+                           </div>
+
+                           <div class="review-bx">
+                              <h4 class="title">Reviews</h4>
+                              <div class="comment-box d-flex">
+                                 <div class="text-center comment-left mr-4">
+                                    <div class="profile-img">
+                                       <img src="images/user-img.jpg" alt="">
+                                    </div>
+                                    <h5>G. Singh<span>Student</span></h5>
+                                 </div>
+                                 <div class="comment-desc">
+                                    <div class="rating-box mb-2">
+                                       <span class="star">
+                                          <svg version="1.1" id="Shape_3_1_" xmlns="http://www.w3.org/2000/svg"
+                                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15px"
+                                             height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15"
+                                             xml:space="preserve">
+                                             <polyline fill="#ffe400" fill-rule="evenodd" clip-rule="evenodd"
+                                                points="7.5,0 9.972,4.714 14.999,5.729 11.5,9.658 12.135,14.999 7.5,12.714 2.865,14.999 3.5,9.658 0.001,5.729 5.028,4.714 7.5,0 " />
+                                          </svg>
+                                       </span>
+                                       <span class="star">
+                                          <svg version="1.1" id="Shape_3_1_" xmlns="http://www.w3.org/2000/svg"
+                                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15px"
+                                             height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15"
+                                             xml:space="preserve">
+                                             <polyline fill="#ffe400" fill-rule="evenodd" clip-rule="evenodd"
+                                                points="7.5,0 9.972,4.714 14.999,5.729 11.5,9.658 12.135,14.999 7.5,12.714 2.865,14.999 3.5,9.658 0.001,5.729 5.028,4.714 7.5,0 " />
+                                          </svg>
+                                       </span>
+                                       <span class="star">
+                                          <svg version="1.1" id="Shape_3_1_" xmlns="http://www.w3.org/2000/svg"
+                                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15px"
+                                             height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15"
+                                             xml:space="preserve">
+                                             <polyline fill="#ffe400" fill-rule="evenodd" clip-rule="evenodd"
+                                                points="7.5,0 9.972,4.714 14.999,5.729 11.5,9.658 12.135,14.999 7.5,12.714 2.865,14.999 3.5,9.658 0.001,5.729 5.028,4.714 7.5,0 " />
+                                          </svg>
+                                       </span>
+                                       <span class="star">
+                                          <svg version="1.1" id="Shape_3_1_" xmlns="http://www.w3.org/2000/svg"
+                                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15px"
+                                             height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15"
+                                             xml:space="preserve">
+                                             <polyline fill="#d4d4d4" fill-rule="evenodd" clip-rule="evenodd"
+                                                points="7.5,0 9.972,4.714 14.999,5.729 11.5,9.658 12.135,14.999 7.5,12.714 2.865,14.999 3.5,9.658 0.001,5.729 5.028,4.714 7.5,0 " />
+                                          </svg>
+                                       </span>
+                                       <span class="star">
+                                          <svg version="1.1" id="Shape_3_1_" xmlns="http://www.w3.org/2000/svg"
+                                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15px"
+                                             height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15"
+                                             xml:space="preserve">
+                                             <polyline fill="#d4d4d4" fill-rule="evenodd" clip-rule="evenodd"
+                                                points="7.5,0 9.972,4.714 14.999,5.729 11.5,9.658 12.135,14.999 7.5,12.714 2.865,14.999 3.5,9.658 0.001,5.729 5.028,4.714 7.5,0 " />
+                                          </svg>
+                                       </span>
+                                    </div>
+                                    <div class="comment-head mb-1">
+                                       <h4>Business Diploma - <span class="ml-1">2 years (May 2017)</span></h4>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo dictum urna
+                                       in gravida. Aliquam orci ipsum, scelerisque sed finibus nec, pellentesque quis
+                                       ante.</p>
+                                 </div>
+                              </div>
+                              <div class="comment-box d-flex">
+                                 <div class="text-center comment-left mr-4">
+                                    <div class="profile-img">
+                                       <img src="images/user-img.jpg" alt="">
+                                    </div>
+                                    <h5>John W <span>Partner</span></h5>
+                                 </div>
+                                 <div class="comment-desc">
+                                    <div class="rating-box mb-2">
+                                       <span class="star">
+                                          <svg version="1.1" id="Shape_3_1_" xmlns="http://www.w3.org/2000/svg"
+                                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15px"
+                                             height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15"
+                                             xml:space="preserve">
+                                             <polyline fill="#ffe400" fill-rule="evenodd" clip-rule="evenodd"
+                                                points="7.5,0 9.972,4.714 14.999,5.729 11.5,9.658 12.135,14.999 7.5,12.714 2.865,14.999 3.5,9.658 0.001,5.729 5.028,4.714 7.5,0 " />
+                                          </svg>
+                                       </span>
+                                       <span class="star">
+                                          <svg version="1.1" id="Shape_3_1_" xmlns="http://www.w3.org/2000/svg"
+                                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15px"
+                                             height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15"
+                                             xml:space="preserve">
+                                             <polyline fill="#ffe400" fill-rule="evenodd" clip-rule="evenodd"
+                                                points="7.5,0 9.972,4.714 14.999,5.729 11.5,9.658 12.135,14.999 7.5,12.714 2.865,14.999 3.5,9.658 0.001,5.729 5.028,4.714 7.5,0 " />
+                                          </svg>
+                                       </span>
+                                       <span class="star">
+                                          <svg version="1.1" id="Shape_3_1_" xmlns="http://www.w3.org/2000/svg"
+                                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15px"
+                                             height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15"
+                                             xml:space="preserve">
+                                             <polyline fill="#ffe400" fill-rule="evenodd" clip-rule="evenodd"
+                                                points="7.5,0 9.972,4.714 14.999,5.729 11.5,9.658 12.135,14.999 7.5,12.714 2.865,14.999 3.5,9.658 0.001,5.729 5.028,4.714 7.5,0 " />
+                                          </svg>
+                                       </span>
+                                       <span class="star">
+                                          <svg version="1.1" id="Shape_3_1_" xmlns="http://www.w3.org/2000/svg"
+                                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15px"
+                                             height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15"
+                                             xml:space="preserve">
+                                             <polyline fill="#d4d4d4" fill-rule="evenodd" clip-rule="evenodd"
+                                                points="7.5,0 9.972,4.714 14.999,5.729 11.5,9.658 12.135,14.999 7.5,12.714 2.865,14.999 3.5,9.658 0.001,5.729 5.028,4.714 7.5,0 " />
+                                          </svg>
+                                       </span>
+                                       <span class="star">
+                                          <svg version="1.1" id="Shape_3_1_" xmlns="http://www.w3.org/2000/svg"
+                                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15px"
+                                             height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15"
+                                             xml:space="preserve">
+                                             <polyline fill="#d4d4d4" fill-rule="evenodd" clip-rule="evenodd"
+                                                points="7.5,0 9.972,4.714 14.999,5.729 11.5,9.658 12.135,14.999 7.5,12.714 2.865,14.999 3.5,9.658 0.001,5.729 5.028,4.714 7.5,0 " />
+                                          </svg>
+                                       </span>
+                                    </div>
+                                    <div class="comment-head mb-1">
+                                       <h4>5 Student Applications for Langara College</h4>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo dictum urna
+                                       in gravida. Aliquam orci ipsum, scelerisque sed finibus nec, pellentesque quis
+                                       ante.</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-12 col-lg-3">
+               <div class="sidebar-bx">
+                  <div class="location-bx">
+                     <h4>Location</h4>
+                     <div class="map">
+                        <iframe
+                           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83327.35775756383!2d-123.1939438136892!3d49.25782632039664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673f143a94fb3%3A0xbb9196ea9b81f38b!2sVancouver%2C+BC%2C+Canada!5e0!3m2!1sen!2sin!4v1550299752111"
+                           width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                     </div>
+                     <div class="map-desc">
+                        <h5>Vancouver, BC, Canada</h5>
+                        <div class="d-flex flex-wrap">
+                           <div class="temperature">
+                              <div class="icon">
+                                 <svg height="18px" width="18px" viewBox="-40 0 403 403.904" width="403pt"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="m154.714844 211.199219c1.511718 2.003906 1.996094 4.601562 1.304687 7.015625l-53.070312 185.6875 220.71875-275.902344h-143.351563c-2.78125.015625-5.367187-1.414062-6.835937-3.773438-1.46875-2.363281-1.605469-5.316406-.363281-7.800781l58.253906-116.425781h-141.78125l-89.136719 208h147.863281c2.519532 0 4.890625 1.1875 6.398438 3.199219zm0 0" />
+                                 </svg>
+
+                                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="25px"
+                                    height="20px" viewBox="0 0 251 251" enable-background="new 0 0 251 251"
+                                    xml:space="preserve">
+                                    <path
+                                       d="M210.498,202.228c22.369,0,40.502-18.134,40.502-40.503c0-19.215-13.386-35.293-31.338-39.448 c-0.367-40.657-33.435-73.504-74.178-73.504c-27.973,0-52.326,15.484-64.965,38.347c-3.846-1.665-8.085-2.591-12.542-2.591 c-16.055,0-29.306,11.972-31.334,27.474C15.752,116.145,0,134.568,0,156.676c0,25.158,20.394,45.552,45.551,45.552 C52.559,202.228,205.697,202.228,210.498,202.228z" />
+                                 </svg>
+                              </div>
+                              <h6>22 &#8451;</h6>
+                           </div>
+                           <div class="ml-auto time d-flex flex-wrap my-auto">
+                              <svg version="1.1" class="mr-2 my-auto" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px"
+                                 viewBox="0 0 251 251" enable-background="new 0 0 251 251" xml:space="preserve">
+                                 <path
+                                    d="M125.5,0C56.299,0,0,56.299,0,125.5C0,194.701,56.299,251,125.5,251c69.201,0,125.5-56.299,125.5-125.5 C251,56.299,194.701,0,125.5,0z M125.5,242.633c-64.586,0-117.133-52.547-117.133-117.133C8.367,60.914,60.914,8.367,125.5,8.367 c64.586,0,117.133,52.547,117.133,117.133C242.633,190.086,190.086,242.633,125.5,242.633z" />
+                                 <path
+                                    d="M125.5,25.1c-2.309,0-4.183,1.87-4.183,4.183V125.5h-62.75c-2.31,0-4.184,1.87-4.184,4.184c0,2.313,1.874,4.184,4.184,4.184 H125.5c2.309,0,4.184-1.871,4.184-4.184v-100.4C129.684,26.97,127.809,25.1,125.5,25.1z" />
+                              </svg>
+                              <h4 class="my-auto">11:52 AM <span>Pacific Time</span></h4>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="card">
+                     <div class="card-body">
+                        <ul class="mb-4 policy mt-0">
+                           <li>- Important updates spring 2018</li>
+                           <li>- School policies</li>
+                           <li>- International tuition</li>
+                           <li>- Student services</li>
+                           <li>- Langara college news winter 2018</li>
+                           <li>- Recreation activities & student clubs</li>
+                           <li>- Application deadlines</li>
+                           <li>- Brochures</li>
+                        </ul>
+                        <a href="agent-search.html" class="btn btn-green btn-find">Find an Agent</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <footer>
+      <div class="container">
+         <div class="row">
+            <div class="col-12 col-lg-4">
+               <div class="inner-box">
+                  <a href="index.html" class="footer-logo">
+                     <img src="images/footer-logo.png" alt="">
+                  </a>
+                  <p class="desc">It is a long established fact that a reader will be distracted by the readable content
+                     of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less
+                     normal distribution of letters, as opposed to using 'Content here, content here.</p>
+               </div>
+            </div>
+            <div class="col-12 col-md-3 col-sm-6 col-lg-2">
+               <h4>About</h4>
+               <ul>
+                  <li><a href="#">- About us</a></li>
+                  <li><a href="#">- Students</a></li>
+                  <li><a href="#">- Institutions</a></li>
+                  <li><a href="#">- Partners</a></li>
+               </ul>
+            </div>
+            <div class="col-12 col-md-3 col-sm-6 col-lg-2">
+               <h4>Partners</h4>
+               <ul>
+                  <li><a href="#">- Training</a></li>
+                  <li><a href="#">- Testimonials</a></li>
+               </ul>
+            </div>
+            <div class="col-12 col-md-3 col-sm-6 col-lg-2">
+               <h4>Quicklinks</h4>
+               <ul>
+                  <li><a href="#">- Sign in</a></li>
+                  <li><a href="#">- Create Account</a></li>
+                  <li><a href="#">- Browse Schools</a></li>
+               </ul>
+            </div>
+            <div class="col-12 col-md-3 col-sm-6 col-lg-2">
+               <h4>Get in Touch</h4>
+               <ul>
+                  <li><a href="#">- Contact Us</a></li>
+                  <li>+1 123-456-789</li>
+                  <li><a href="#">weegomee@gmail.com</a></li>
+               </ul>
+            </div>
+            <div class="col-12">
+               <div class="copyright d-flex">
+                  <p class="my-auto mr-auto">© Copyright Weegomee, All rights reserved.</p>
+                  <ul class="social ml-auto d-flex">
+                     <li><a href="#" class="mr-3">Facebook</a></li>
+                     <li> - <a href="#" class="mx-3">Twitter</a></li>
+                     <li> - <a href="#" class="mx-3">Linkedin</a></li>
+                     <li> - <a href="#" class="ml-3">Instagram</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+   <!-- Sign In -->
+
+   <div class="modal signpop-bg" id="signin-popup">
+      <div class="modal-dialog">
+         <div class="modal-content">
+            <div class="plan-box">
+               <div class="owl-carousel h-100">
+                  <div class="items h-100">
+                     <h3>Plan your activities and control your progress online</h3>
+                  </div>
+                  <div class="items h-100">
+                     <h3>Steps 2</h3>
+                  </div>
+                  <div class="items h-100">
+                     <h3>Steps 3</h3>
+                  </div>
+                  <div class="items h-100">
+                     <h3>Steps 4</h3>
+                  </div>
+               </div>
+            </div>
+            <div class="sign-box">
+               <button type="button" class="close-btn" data-dismiss="modal"><svg version="1.1" id="Capa_1"
+                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512"
+                     xml:space="preserve">
+                     <path
+                        d="M316.852,256L499.398,73.453c16.804-16.804,16.804-44.048,0-60.849c-16.804-16.804-44.045-16.804-60.849,0 L256,195.153L73.451,12.602c-16.804-16.804-44.045-16.804-60.849,0C-4.2,29.405-4.2,56.649,12.602,73.451l182.549,182.547 L12.602,438.547c-16.801,16.804-16.801,44.048,0,60.85c16.804,16.804,44.045,16.804,60.849,0L256,316.847l182.55,182.55 c16.801,16.804,44.045,16.804,60.849,0s16.804-44.046,0-60.85L316.852,256z" />
+                  </svg> </button>
+               <h3>Sign In<span class="or">or</span><a href="#signup-popup" data-dismiss="modal" data-toggle="modal"
+                     class="opacity">Sign Up</a></h3>
+               <div class="form-group">
+                  <input type="text" name="username" id="username" class="form-control" placeholder="info@gmail.com">
+                  <label for="username">Username</label>
+               </div>
+               <div class="form-group">
+                  <input type="password" name="password" id="password" class="form-control"
+                     placeholder="*****************">
+                  <label for="password">Password</label>
+               </div>
+               <div class="form-group d-flex flex-wrap">
+                  <a href="institution-search.html" class="btn btn-br">SIGN IN</a>
+                  <a href="#forgot-popup" data-dismiss="modal" data-toggle="modal"
+                     class="ml-auto my-auto forgot-text">Forgot Password?</a>
+               </div>
+               <p class="text-center first-text">First time here? <a href="#signup-popup" data-dismiss="modal"
+                     data-toggle="modal">Sign Up</a></p>
+               <div class="or-box">
+                  <span>OR</span>
+               </div>
+               <ul class="social-signin">
+                  <li class="facebook"><a href="#">Facebook</a></li>
+                  <li class="google"><a href="#">Google+</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+   <!-- Sign Up -->
+
+   <div class="modal signpop-bg" id="signup-popup">
+      <div class="modal-dialog">
+         <div class="modal-content">
+            <div class="plan-box">
+               <div class="owl-carousel h-100">
+                  <div class="items h-100">
+                     <h3>Plan your activities and control your progress online</h3>
+                  </div>
+                  <div class="items h-100">
+                     <h3>Steps 2</h3>
+                  </div>
+                  <div class="items h-100">
+                     <h3>Steps 3</h3>
+                  </div>
+                  <div class="items h-100">
+                     <h3>Steps 4</h3>
+                  </div>
+               </div>
+            </div>
+            <div class="sign-box">
+               <button type="button" class="close-btn" data-dismiss="modal"><svg version="1.1" id="Capa_1"
+                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512"
+                     xml:space="preserve">
+                     <path
+                        d="M316.852,256L499.398,73.453c16.804-16.804,16.804-44.048,0-60.849c-16.804-16.804-44.045-16.804-60.849,0 L256,195.153L73.451,12.602c-16.804-16.804-44.045-16.804-60.849,0C-4.2,29.405-4.2,56.649,12.602,73.451l182.549,182.547 L12.602,438.547c-16.801,16.804-16.801,44.048,0,60.85c16.804,16.804,44.045,16.804,60.849,0L256,316.847l182.55,182.55 c16.801,16.804,44.045,16.804,60.849,0s16.804-44.046,0-60.85L316.852,256z" />
+                  </svg> </button>
+               <h3><a href="#signin-popup" data-dismiss="modal" data-toggle="modal" class="opacity">Sign In</a><span
+                     class="or">or</span>Sign Up</h3>
+               <div class="form-group">
+                  <input type="text" name="firstname" id="firstname" class="form-control" placeholder="David">
+                  <label for="firstname">First Name</label>
+               </div>
+               <div class="form-group">
+                  <input type="text" name="lastname" id="lastname" class="form-control" placeholder="Ramos">
+                  <label for="lastname">Last Name</label>
+               </div>
+               <div class="form-group">
+                  <input type="mail" name="email" id="email" class="form-control" placeholder="info@gmail.com">
+                  <label for="email">E-mail</label>
+               </div>
+               <div class="form-group">
+                  <input type="password" name="password" id="password" class="form-control"
+                     placeholder="*****************">
+                  <label for="password">Password</label>
+               </div>
+               <div class="form-group d-flex flex-wrap mb-0">
+                  <input type="button" name="signin" value="Sign up" class="btn btn-br">
+                  <a href="#signin-popup" class="ml-auto my-auto forgot-text" data-dismiss="modal"
+                     data-toggle="modal">I’m already member</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+   <!-- Forgot Password -->
+
+   <div class="modal forpop-bg" id="forgot-popup">
+      <div class="modal-dialog">
+         <div class="modal-content">
+            <div class="sign-box">
+               <button type="button" class="close-btn" data-dismiss="modal"><svg version="1.1" id="Capa_1"
+                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512"
+                     xml:space="preserve">
+                     <path
+                        d="M316.852,256L499.398,73.453c16.804-16.804,16.804-44.048,0-60.849c-16.804-16.804-44.045-16.804-60.849,0 L256,195.153L73.451,12.602c-16.804-16.804-44.045-16.804-60.849,0C-4.2,29.405-4.2,56.649,12.602,73.451l182.549,182.547 L12.602,438.547c-16.801,16.804-16.801,44.048,0,60.85c16.804,16.804,44.045,16.804,60.849,0L256,316.847l182.55,182.55 c16.801,16.804,44.045,16.804,60.849,0s16.804-44.046,0-60.85L316.852,256z" />
+                  </svg> </button>
+               <h3>Forgot Password</h3>
+               <div class="form-group">
+                  <input type="mail" name="email" id="email" class="form-control" placeholder="info@gmail.com">
+                  <label for="email">E-mail</label>
+               </div>
+               <div class="form-group d-flex flex-wrap mb-0">
+                  <input type="button" name="signin" value="Send Reset Link" class="btn btn-br">
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+   <script src="js/jquery.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.js"></script>
+   <script src="js/owl.carousel.js"></script>
+   <script src="js/main.js"></script>
+</body>
+
+</html>
